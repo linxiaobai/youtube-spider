@@ -24,9 +24,11 @@ public static final int PROXY_PORT = 8888;
 整个程序主要解析规则在parse包里。
 主要有以下2个类
 1. GetVideoUrlsParse
+
 遍历频道页视频列表，返回所有的视频URL.(遍历的时候会有一个filterDate作为过滤条件，这个日期以前的视频不做抓取,如果设置成null，表示抓取所有)
 
 2. GetVideoInfoParse
+
 根据视频url解析视频详细信息，返回封装的VideoInfo对象
 
 

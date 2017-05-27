@@ -8,7 +8,7 @@ you should set the proxy ip or port
 
 
 
-youtube.spider.util.CommonConstants.class
+`youtube.spider.util.CommonConstants`
 ```
 public static final String PROXY_IP = "";
 public static final int PROXY_PORT = 8888;

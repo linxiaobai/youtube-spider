@@ -31,7 +31,7 @@ public class SpiderVideoInfo {
         String userVideoListUrl = "https://www.youtube.com/user/failarmy/videos";
         logger.info("spider video start...");
         //过滤日期传null标识抓取所有视频
-        Set<String> videoList = GetVideoUrlsParse.INSTANCE.parse(JsoupUtils.getDocument("https://www.youtube.com/user/failarmy/videos", true, CommonConstants.HEAD_MAP)
+        Set<String> videoList = GetVideoUrlsParse.INSTANCE.parse(JsoupUtils.getDocument(userVideoListUrl, true, CommonConstants.HEAD_MAP)
                 , DateUtils.addDays(new Date(), CommonConstants.FILTER_DATE));
         logger.info("user video list url: {}, filter date: {}, spider video count: {}", userVideoListUrl, DateUtils.addDays(new Date(), CommonConstants.FILTER_DATE), videoList.size());
         for (String s : videoList) {

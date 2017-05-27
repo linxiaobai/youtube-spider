@@ -6,7 +6,9 @@ fetch youtube video info and download video
 
 
 你需要改一些配置:
+
 1、将代理IP和端口号设置成你自己的
+
 在`youtube.spider.util.CommonConstants`里面做修改
 ```
 public static final String PROXY_IP = "";
@@ -16,6 +18,7 @@ public static final int PROXY_PORT = 8888;
 当然，如果你自己的网直接就能访问youtube，那么你在代码里将HTTP请求的是否启用代理参数设置成false即可。
 
 2、程序的入口类为`youtube.spider.SpiderVideoInfo`
+
 频道页URL在这里更改`String userVideoListUrl = "https://www.youtube.com/user/failarmy/videos";` 
 改成你想要进行下载的频道页视频列表，URL规则是*频道主页+/videos*
 

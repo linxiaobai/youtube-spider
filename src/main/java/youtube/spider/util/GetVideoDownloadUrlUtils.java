@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author jianlin210349
+ * @author jianlin
  */
 public class GetVideoDownloadUrlUtils {
 

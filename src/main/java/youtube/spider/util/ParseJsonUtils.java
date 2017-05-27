@@ -3,7 +3,7 @@ package youtube.spider.util;
 import org.json.JSONObject;
 
 /**
- * @author jianlin210349
+ * @author jianlin
  */
 public class ParseJsonUtils {
 

@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author jianlin210349
+ * @author jianlin
  */
 public class SpiderVideoInfo {
     private static final Logger logger = LoggerFactory.getLogger(SpiderVideoInfo.class);

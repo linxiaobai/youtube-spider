@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  * document元素解析策略
  *
- * @author jianlin210349
+ * @author jianlin
  */
 public interface ParseStrategy<R> {
     R parse(Document document);

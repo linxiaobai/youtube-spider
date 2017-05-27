@@ -1,7 +1,7 @@
 package youtube.spider.util;
 
 /**
- * @author jianlin210349
+ * @author jianlin
  */
 public class FormatUtils {
     private static final String REPLACE_STR_REGEX = ",|\\.|\\(|\\)|\"";

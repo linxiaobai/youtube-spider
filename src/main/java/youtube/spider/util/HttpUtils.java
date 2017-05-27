@@ -46,7 +46,7 @@ import java.util.Map;
  * Description: http工具类
  * </p>
  *
- * @author jianlin210349
+ * @author jianlin
  * @Date 2016-06-07
  */
 public class HttpUtils {

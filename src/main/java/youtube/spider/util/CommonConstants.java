@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author jianlin210349
+ * @author jianlin
  */
 public class CommonConstants {
 

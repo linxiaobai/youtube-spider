@@ -6,7 +6,7 @@ import java.io.Serializable;
 /**
  * 抓取的视频信息
  *
- * @author jianlin210349
+ * @author jianlin
  */
 public class VideoInfo implements Serializable {
     private static final long serialVersionUID = 6991610393664419966L;

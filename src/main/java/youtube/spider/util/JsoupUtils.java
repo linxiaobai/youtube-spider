@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * jsoup工具类
  *
- * @author jianlin210349
+ * @author jianlin
  */
 public class JsoupUtils {
 

@@ -22,7 +22,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author jianlin210349
+ * @author jianlin
  */
 public enum GetVideoUrlsParse implements ParseStrategy<Set<String>> {
     INSTANCE("GET YOUTUBE VIDEO URLS");

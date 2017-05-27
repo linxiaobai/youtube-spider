@@ -12,7 +12,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author jianlin210349
+ * @author jianlin
  */
 public class SpiderDateUtils {
     private static final String DEFAULT_PATTERN = "yyyy-MM-dd";

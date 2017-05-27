@@ -3,7 +3,7 @@ package youtube.spider.util;
 import java.io.File;
 
 /**
- * @author jianlin210349
+ * @author jianlin
  */
 public class SpiderFileUtils {
     public static boolean mkdirs(String path) {

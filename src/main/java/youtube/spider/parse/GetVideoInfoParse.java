@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
 
 
 /**
- * @author jianlin210349
+ * @author jianlin
  */
 public enum GetVideoInfoParse implements ParseStrategy<VideoInfo> {
     INSTANCE("GET YOUTUBE VIDEO INFO");

@@ -6,7 +6,7 @@ import java.io.InputStream;
 import java.io.Writer;
 
 /**
- * @author jianlin210349
+ * @author jianlin
  */
 public class IOUtils {
 

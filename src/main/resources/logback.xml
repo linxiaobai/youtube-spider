@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="5 seconds">
+    <!-- <substitutionProperty name="LOG_HOME" value="/opt/spider-youtube"/>-->
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!--
+      <appender name="logfile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+          <file>${LOG_HOME}/stdout.log</file>
+          &lt;!&ndash; 可让每天产生一个日志文件，最多 10 个，自动回滚 &ndash;&gt;
+          <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+              <fileNamePattern>${LOG_HOME}/mtd-%d{yyyy-MM-dd}.log</fileNamePattern>
+              <maxHistory>10</maxHistory>
+          </rollingPolicy>
+
+          <encoder charset="UTF-8">
+              <pattern>[%d{yyyy-MM-dd HH:mm:ss} %5p %c:%L] %m%n</pattern>
+          </encoder>
+      </appender>
+
+      &lt;!&ndash;warn以上级别的日志记录到文件中&ndash;&gt;
+      <root level="INFO">
+          <appender-ref ref="logfile"/>
+      </root>-->
+
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</configuration>

@@ -2,7 +2,7 @@
 fetch youtube video info and download video
 
 
-抓取youtube频道中视频列表中的所有数据，并下载。
+抓取youtube频道中视频列表中的所有数据，并下载视频。
 
 
 你需要改一些配置:

@@ -3,10 +3,12 @@ fetch youtube video info and download video
 
 
 
-you should set the proxy ip or port for yourself
+you should set the proxy ip or port 
 
-in   youtube.spider.util.CommonConstants.class
 
+
+
+youtube.spider.util.CommonConstants.class
 ```
 public static final String PROXY_IP = "";
 public static final int PROXY_PORT = 8888;
